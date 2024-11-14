@@ -32,4 +32,5 @@
 31. Cuando lo actualizes tieens que insatlar las librerias de PHP de la version 7.4 Son los siguentes codigos "sudo apt install php7.4 -y", "sudo apt install -y php libapache2-mod-php7.4" y "sudo apt install -y php7.4-fpm php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-gd php7.4-xml php7.4-intl php7.4-mysql php7.4-cli php7.4-ldap php7.4-zip php7.4-curl"
 32. Ahora tieneq ue selecionar la version de PHP que quieras con este comando "sudo update-alternatives --config php"
 33. Cuando hallas selecionado la vercion tienes que activar los modulos de apache2 nesesarios con estos dos comandos "sudo a2enmod proxy_fcgi setenvif" y "sudo a2enconf php7.4-fpm"
-34. Por ultimo reinisia la apache2 con este ultimo comando "sudo service apache2 restart" 
+34. Por ultimo reinisia la apache2 con este ultimo comando "sudo service apache2 restart"
+35. Y ya lo tendras.
